@@ -1,0 +1,29 @@
+{
+  "name": "@hipo/eslint-config-typescript",
+  "version": "1.0.0",
+  "description": "Hipo's shareable ESLint configuations for TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hipo/eslint-config-hipo-typescript.git"
+  },
+  "keywords": [
+    "eslintconfig",
+    "eslint",
+    "typescript",
+    "hipo"
+  ],
+  "author": "Hipo Web Team",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Hipo/eslint-config-hipo-typescript/issues"
+  },
+  "homepage": "https://github.com/Hipo/eslint-config-hipo-typescript#readme",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0"
+  }
+}
