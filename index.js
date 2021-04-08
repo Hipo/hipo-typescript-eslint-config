@@ -12,6 +12,7 @@ module.exports = {
     "@typescript-eslint/no-non-null-assertion": 0,
     "@typescript-eslint/explicit-module-boundary-types": 0,
     "@typescript-eslint/ban-ts-comment": 0,
+    "no-undef": 0,
     // Core `no-shadow` rule reports incorrect errors for enum declarations
     "no-shadow": "off",
     "@typescript-eslint/no-shadow": ["error"],
