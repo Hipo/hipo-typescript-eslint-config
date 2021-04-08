@@ -1,7 +1,7 @@
 {
   "name": "@hipo/eslint-config-typescript",
   "version": "1.0.0",
-  "description": "Hipo's shareable ESLint configuations for TypeScript",
+  "description": "Hipo's shareable ESLint configurations for TypeScript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
