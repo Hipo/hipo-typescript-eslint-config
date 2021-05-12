@@ -11,7 +11,7 @@ module.exports = {
     "@typescript-eslint/ban-ts-ignore": 0,
     "@typescript-eslint/no-non-null-assertion": 0,
     "@typescript-eslint/explicit-module-boundary-types": 0,
-    "@typescript-eslint/ban-ts-comment": 0,
+    "@typescript-eslint/ban-ts-comment": 1,
     "no-undef": 0,
     // Core `no-shadow` rule reports incorrect errors for enum declarations
     "no-shadow": "off",
@@ -19,7 +19,11 @@ module.exports = {
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": [
       "error",
-      {functions: false, classes: true}
-    ]
+      {functions: false, classes: false},
+    ],
+    "@typescript-eslint/ban-ts-comment": [
+      "error",
+      {"ts-ignore": "allow-with-description"},
+    ],
   },
 };
