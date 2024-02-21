@@ -1,6 +1,6 @@
 # @hipo/eslint-config-typescript
 
-Hipo's shareable ESLint configurations for TypeScript.
+Bakers' shareable ESLint configurations for TypeScript.
 
 ## Installation
 
